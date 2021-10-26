@@ -1,0 +1,14 @@
+{
+  "name": "smallscale",
+  "version": "1.0.0",
+  "description": "figuring this out",
+  "main": "expressserver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ryan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
