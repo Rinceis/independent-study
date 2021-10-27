@@ -1,0 +1,1 @@
+Currently working in Express.js server, will be looking at how to properly prepare everything before moving on to integrations.
