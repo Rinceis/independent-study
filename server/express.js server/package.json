@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+ "devDependencies": {
+    "nodemon": "^2.0.4"
+},
   "author": "Ryan",
   "license": "ISC",
   "dependencies": {
