@@ -6,3 +6,30 @@ body {
 a {
   color: #00B7FF;
 }
+
+#twitterfeed {
+  position: fixed;
+  
+  
+  width= 20%;
+  height= 25%;
+  display: fixed;
+  
+  right: 1%;
+  top: 1%;
+  bottom: 27%;
+  left: 78%;
+  padding-left: 10px;
+}
+#video {
+  position: fixed;
+  margin-top: 0%;
+  display: fixed;
+  top: 74%;
+  height: 25%;
+  right: 1%;
+  width: 20%;
+  padding-left: 10px;
+  border: 0px solid white;
+  
+}
