@@ -22,6 +22,7 @@ app.use('/info', indexRouter);
 app.use('/test', indexRouter);
 app.use('/public', indexRouter);
 app.use('/users', usersRouter);
+app.use('/login', indexRouter);
 app.use(express.static('public'))
 app.use(express.static('files'))
 app.use(express.static('images'))

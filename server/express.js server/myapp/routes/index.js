@@ -20,7 +20,10 @@ router.get('/info', function(req, res){ res.send('I\'ll probably be using differ
 })
 router.get('/twitter', function(req, res){ res.send('Like this, see? Though it\'s not entirely set up yet, obviously. I wonder if it\'s possible to somehow send the twitter feed directly, rather than through pug? Just embedding the feed doesn\'t apparently require the api, so that wouldn\'t be a great demonstration of me learning new skills.')
 })
-
+router.get('/login', function(req, res, next) {
+res.send('testing')
+  res.render('index', {title:'LoggedIn'});
+})
 router.get('/index', function(req, res, next){
   res.send('Page showing all the various integrations I\'ve made available?')
   res.render( 'index', {title:'index'});
@@ -29,9 +32,6 @@ router.get('/index', function(req, res, next){
 router.get('/', function(req, res, next) {
   res.render('index', {title:'Express'});
 })
-router.get('/login', function(req, res, next) {
-res.send('testing')
-  res.render('index', {title:'LoggedIn'});
-})
+
 module.exports = router;
 
